@@ -1,0 +1,16 @@
+highlight_theme: ocean
+disable_top_img: true
+cover:
+  # 是否显示文章封面
+  index_enable: true
+  aside_enable: true
+  archives_enable: true
+  # 封面显示的位置
+  # 三个值可配置 left , right , both
+  position: both
+  # 当没有设置cover时，默认的封面显示
+  default_cover:
+    - https://cdn.jsdelivr.net/gh/jerryc127/CDN@latest/cover/default_bg.png
+    - https://cdn.jsdelivr.net/gh/jerryc127/CDN@latest/cover/default_bg2.png
+    - https://cdn.jsdelivr.net/gh/jerryc127/CDN@latest/cover/default_bg3.png
+
