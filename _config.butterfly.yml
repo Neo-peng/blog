@@ -14,3 +14,114 @@ cover:
     - https://cdn.jsdelivr.net/gh/jerryc127/CDN@latest/cover/default_bg2.png
     - https://cdn.jsdelivr.net/gh/jerryc127/CDN@latest/cover/default_bg3.png
 
+toc:
+  # 文章页是否显示 TOC
+  post: true
+  # 普通页面是否显示 TOC
+  page: false
+  # 是否显示章节数
+  number: true
+  # 是否展开 TOC
+  expand: false
+  # 简洁模式（侧边栏只显示 TOC, 只对文章页有效 ）
+  style_simple: false # for post
+
+# A simple 404 page
+error_404:
+  enable: true
+  subtitle: "页面没有找到"
+  background: 
+  
+# when you scroll in post , the url will update according to header id.
+anchor: true
+
+# Displays outdated notice for a post (文章过期提醒)
+noticeOutdate:
+  enable: true
+  style: flat # style: simple/flat
+  limit_day: 365 # When will it be shown
+  position: top # position: top/bottom
+  message_prev: It has been
+  message_next: days since the last update, the content of the article may be outdated.
+translate:
+  enable: true
+  # 默认按钮显示文字(网站是简体，应设置为'default: 繁')
+  default: 简
+  #网站默认语言，1: 繁体中文, 2: 简体中文
+  defaultEncoding: 1
+  #延迟时间,若不在前, 要设定延迟翻译时间, 如100表示100ms,默认为0
+  translateDelay: 0
+  #当文字是简体时，按钮显示的文字
+  msgToTraditionalChinese: "繁"
+  #当文字是繁体时，按钮显示的文字
+  msgToSimplifiedChinese: "简"
+
+# dark mode
+darkmode:
+  enable: true
+  # dark mode和 light mode切换按钮
+  button: true
+  autoChangeMode: false
+
+#閲读模式下会去掉除文章外的内容，避免干扰閲读。
+#只会出现在文章页面，右下角会有閲读模式按钮。
+readmode: true
+
+# 访问人数 busuanzi (UV 和 PV)
+busuanzi:
+  site_uv: true
+  site_pv: true
+  page_pv: true
+
+runtimeshow:
+  enable: true
+  publish_date: 24/04/2022 00:00:00  
+
+# Aside widget - Newest Comments
+# newest_comments:
+#   enable: true
+#   sort_order: # Don't modify the setting unless you know how it works
+#   limit: 6
+#   storage: 10 # unit: mins, save data to localStorage
+#   avatar: true
+
+note:
+  # Note tag style values:
+  #  - simple    bs-callout old alert style. Default.
+  #  - modern    bs-callout new (v2-v3) alert style.
+  #  - flat      flat callout style with background, like on Mozilla or StackOverflow.
+  #  - disabled  disable all CSS styles import of note tag.
+  style: simple
+  icons: false
+  border_radius: 3
+  # Offset lighter of background in % for modern and flat styles (modern: -12 | 12; flat: -18 | 6).
+  # Offset also applied to label tag variables. This option can work with disabled note tag.
+  light_bg_offset: 0
+
+# comments:
+#   # Up to two comments system, the first will be shown as default
+#   # Choose: Disqus/Disqusjs/Livere/Gitalk/Valine/Waline/Utterances/Facebook Comments/Twikoo
+#   use: Valine,Disqus
+#   text: true # Display the comment name next to the button
+#   # lazyload: The comment system will be load when comment element enters the browser's viewport.
+#   # If you set it to true, the comment count will be invalid
+#   lazyload: true
+#   count: true # Display comment count in top_img
+#   card_post_count: false # Display comment count in Home Page
+
+wordcount:
+  enable: true
+  post_wordcount: true
+  min2read: true
+  total_wordcount: true
+
+  # Artitalk
+  # see https://artitalk.js.org/
+  # artitalk:
+  #   enable: true
+  #   appId:
+  #   appKey:
+  #   path:
+  #   js:
+  #   option:
+  #   front_matter:
