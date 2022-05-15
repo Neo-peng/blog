@@ -31,7 +31,7 @@ error_404:
   enable: true
   subtitle: "页面没有找到"
   background: 
-  
+
 # when you scroll in post , the url will update according to header id.
 anchor: true
 
@@ -75,7 +75,9 @@ busuanzi:
 
 runtimeshow:
   enable: true
-  publish_date: 24/04/2022 00:00:00  
+  publish_date: 2022/04/24 00:00:00  
+  #格式: 月/日/年 时间
+  #也可以写成 年/月/日 时间
 
 # Aside widget - Newest Comments
 # newest_comments:
