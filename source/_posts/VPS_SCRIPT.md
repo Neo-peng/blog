@@ -7,6 +7,7 @@ categories:
   - VPS
 author: Blanca
 date: 2022-04-24 04:57:00
+cover: 
 ---
 一些vps常用的脚本集合
 <!--more-->
