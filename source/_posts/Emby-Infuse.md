@@ -2,7 +2,7 @@ title: 使用 infuse 登录 emby server
 author: John Doe
 date: 2022-05-16
 tags: emby,infuse
-cover: https://cdn.jsdelivr.net/gh/jerryc127/CDN@latest/cover/default_bg.png
+cover: https://imgs.mcurr.xyz/i/2022/05/16/6281f4e8d8929.png
 ---
 infuse 因为会扫库，所以被很多的 emby 公益服禁用。最近刚开始玩 emby，之前不知道公益服会禁用infuse，还专门买了个。
 后续研究中，找到了方法可以绕过这个限制，使用 infuse。
