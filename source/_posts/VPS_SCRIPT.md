@@ -48,58 +48,6 @@ net.ipv4.tcp_congestion_control=bbr
 sysctl -p
 ```
 
-No.1
-
-```bash
-uname -r
-```
-
-查看内核版本，显示为新版内核就表示 OK 了。
-
-No.2
-
-```bash
-sysctl net.ipv4.tcp_available_congestion_control
-```
-
-返回值一般为：
-
-```bash
-net.ipv4.tcp_available_congestion_control = bbr cubic reno
-```
-
-或者：
-
-```bash
-net.ipv4.tcp_available_congestion_control = reno cubic bbr
-```
-
-No.3
-
-```bash
-sysctl net.ipv4.tcp_congestion_control
-```
-
-返回值一般为：
-
-```bash
-net.ipv4.tcp_congestion_control = bbr
-```
-
-No.4
-
-```bash
-sysctl net.core.default_qdisc
-```
-
-返回值一般为：
-
-```
-net.core.default_qdisc = fq
-```
-
-No.5
-
 ```
 lsmod | grep bbr
 ```

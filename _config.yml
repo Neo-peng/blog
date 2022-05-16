@@ -103,7 +103,10 @@ theme: butterfly
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
-  type: ''
+  type: 'git'
+  repo: https://github.com/Neo-peng/blog.git
+  token: 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
+  branch: master
 admin:
   username: Blanca
   password_hash: $2a$12$dyLWdxsRPExvZIyHC.u1AOIq1K/tOQPeKboG.ktslAhLJlRR6Ee9y
